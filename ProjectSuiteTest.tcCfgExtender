@@ -21,13 +21,9 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{308CC6F0-5928-4B4A-8263-FC7BC86B6DAF}"/>
+				<Prp name="activity" type="S" value="{579670C7-85B4-45B2-86E3-ACAEEF46E76C}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
-				<Node name="{a5eacff1-c8df-4724-8960-0f7de72bbdac}">
-					<Prp name="hash" type="I" value="1"/>
-				</Node>
-			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace"/>
 			</Node>
@@ -98,6 +94,17 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{2a7bede6-4ec2-4696-83a1-8c5b5b605c2a}">
+						<Prp name="bottom" type="I" value="0"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+					<Node name="{579670c7-85b4-45b2-86e3-acaeef46e76c}"/>
+					<Node name="{e4496320-5c0f-467f-abae-5bc294689e36}">
+						<Prp name="bottom" type="I" value="0"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
 					<Node name="{feaeb0ca-d7ad-4ee5-8fab-9c39e403fc6e}">
 						<Prp name="bottom" type="I" value="0"/>
 						<Prp name="collapsed" type="B" value="0"/>
@@ -113,6 +120,7 @@
 				<Node name="projectsuitetest">
 					<Node name="testproject">
 						<Node name="keywordtests"/>
+						<Node name="script"/>
 					</Node>
 				</Node>
 				<Node name="projectsuitetest logs">

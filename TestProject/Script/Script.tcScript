@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
-	<children />
+	<children>
+		<child name="Unit" key="{579670C7-85B4-45B2-86E3-ACAEEF46E76C}" path="Unit.sd" />
+	</children>
 </Root>

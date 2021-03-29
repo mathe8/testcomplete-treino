@@ -39,6 +39,24 @@
 				<Prp name="relpath" type="S" value="29_03_2021_17_21_07_43\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44284.7375742593"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{793E9B40-BA25-4022-880A-4FC08D38AB23}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Divis_Teste]"/>
+				<Prp name="relpath" type="S" value="29_03_2021_17_42_06_416\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44284.7396966435"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{40D11C14-9748-4ECD-B646-651075223107}"/>
+				<Prp name="nameofroot" type="S" value="TestProject"/>
+				<Prp name="relpath" type="S" value="29_03_2021_17_45_09_790\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

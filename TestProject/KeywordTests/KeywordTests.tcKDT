@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Soma_Test" key="{8AD583B6-F0FB-4233-94EF-8A13A091451F}" path="Soma_Test.tcKDTest" />
+		<child name="Sub_Test" key="{9B3FBA75-DE58-4204-8E3D-22BF53991AF6}" path="Sub_Test.tcKDTest" />
+		<child name="Mult_Test" key="{1129BE7F-4780-4891-B26D-992E29C68C88}" path="Mult_Test.tcKDTest" />
+		<child name="Divis_Teste" key="{308CC6F0-5928-4B4A-8263-FC7BC86B6DAF}" path="Divis_Teste.tcKDTest" />
+	</children>
+</Root>

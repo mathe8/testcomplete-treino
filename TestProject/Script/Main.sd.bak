@@ -1,0 +1,8 @@
+﻿uses
+  Functions, OperacoesBasicas, OperacoesBasicasComTeclado;
+
+procedure AllTests();
+begin
+    OperacoesBasicas.Executar;
+    OperacoesBasicasComTeclado.Executar; 
+end;

@@ -1,0 +1,43 @@
+﻿procedure Soma_Key;
+begin
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Backspace.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Keys('[BS][Del]8+8=');
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_2.TextContainer.NormalOutput, 'Text', cmpEqual, '16', false);
+end;
+
+procedure Sub_Key;
+begin
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Backspace.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Backspace.Keys('[BS][Del]16-8=');
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_2.TextContainer.NormalOutput, 'Text', cmpEqual, '8', false);
+end;
+
+procedure Mult_Key;
+begin
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Backspace.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Backspace.Keys('[BS][Del]6*6=');
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_2.TextContainer.NormalOutput, 'Text', cmpEqual, '36', false);
+end;
+
+procedure Divis_Key;
+begin
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Backspace.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Keys('[BS][Del]64/8=');
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_2.TextContainer.NormalOutput, 'Text', cmpEqual, '8', false);
+end;
+
+procedure Executar();
+begin
+  Soma_Key;
+  Sub_Key;
+  Mult_Key;
+  Divis_Key;
+end;

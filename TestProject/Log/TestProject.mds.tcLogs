@@ -23,38 +23,29 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44284.7226714815"/>
+				<Prp name="datetime" type="D" value="44285.6718405208"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{497A53DF-33D4-444B-B2BC-4D7C742A1AD8}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [Soma_Test]"/>
-				<Prp name="relpath" type="S" value="29_03_2021_17_20_38_816\Description.tcLog"/>
+				<Prp name="key" type="S" value="{09C867B2-5122-4BCC-BEA7-DFA3529D165A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [OperacoesBasicasComTeclado\Divis_Key]"/>
+				<Prp name="relpath" type="S" value="30_03_2021_16_07_27_21\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44284.7229981829"/>
+				<Prp name="datetime" type="D" value="44285.6721670486"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{9F30AC24-BEE8-4BAC-8FA7-6577B9D9F7A5}"/>
-				<Prp name="nameofroot" type="S" value="TestProject"/>
-				<Prp name="relpath" type="S" value="29_03_2021_17_21_07_43\Description.tcLog"/>
+				<Prp name="key" type="S" value="{A9B995C1-D78D-42CC-B552-86E7B55FC6A4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [OperacoesBasicasComTeclado\Divis_Key]"/>
+				<Prp name="relpath" type="S" value="30_03_2021_16_07_55_233\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44284.7375742593"/>
+				<Prp name="datetime" type="D" value="44285.6727401042"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{793E9B40-BA25-4022-880A-4FC08D38AB23}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [Divis_Teste]"/>
-				<Prp name="relpath" type="S" value="29_03_2021_17_42_06_416\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44284.7396966435"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{40D11C14-9748-4ECD-B646-651075223107}"/>
-				<Prp name="nameofroot" type="S" value="TestProject"/>
-				<Prp name="relpath" type="S" value="29_03_2021_17_45_09_790\Description.tcLog"/>
+				<Prp name="key" type="S" value="{5BDF379D-BEF0-4565-8E1E-5B29B741A6DB}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Main\AllTests]"/>
+				<Prp name="relpath" type="S" value="30_03_2021_16_08_44_745\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

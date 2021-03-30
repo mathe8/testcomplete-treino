@@ -1,0 +1,32 @@
+﻿procedure MemoriaCalculo;
+begin
+
+end;
+
+procedure Potencia;
+begin
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Sete.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Fun_es_padr_o.Quadrado.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_2.TextContainer.NormalOutput, 'Text', cmpEqual, '49', false);
+end;
+
+procedure RaizQuadrada;
+begin
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Seis.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Quatro.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Fun_es_padr_o.Raiz_quadrada.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_2.TextContainer.NormalOutput, 'Text', cmpEqual, '8', false);
+end;
+
+procedure Executar();
+begin
+  MemoriaCalculo;
+  Potencia;
+  RaizQuadrada;
+end;

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit" key="{579670C7-85B4-45B2-86E3-ACAEEF46E76C}" path="Unit.sd" />
+		<child name="OperacoesBasicas" key="{579670C7-85B4-45B2-86E3-ACAEEF46E76C}" path="OperacoesBasicas.sd" />
+		<child name="Main" key="{1A783D2C-289A-490E-94B9-7F02CC91FC41}" path="Main.sd" />
+		<child name="OperacoesBasicasComTeclado" key="{21C14B42-3EB3-4399-92EF-7AEC97FE79BD}" path="OperacoesBasicasComTeclado.sd" />
+		<child name="Functions" key="{A5A313D2-040A-434D-B3FF-D51531BF4D0E}" path="Functions.sd" />
 	</children>
 </Root>

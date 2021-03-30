@@ -245,6 +245,60 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="Sete" Key="{71912AF3-FD2E-4333-9519-CF23BDAA8552}">
+														<Image FileName="-1480733503" Left="12" Top="314" Right="88" Bottom="366" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Sete" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Seis" Key="{B7AEA69D-121D-41E0-9602-9399C00E16A5}">
+														<Image FileName="-537781005" Left="169" Top="368" Right="245" Bottom="420" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Seis" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Zero" Key="{68A1FB38-11AA-4826-B6F0-4BDEC39F96D1}">
+														<Image FileName="-1123007904" Left="90" Top="476" Right="166" Bottom="528" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Zero" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Operadores_padr_o" Key="{5FB0EBD7-3570-4E4B-BD91-FDF6D8384B62}">
@@ -556,7 +610,7 @@
 														<Value Value="texto" />
 													</Property>
 													<Property Name="ObjectIdentifier">
-														<Value Value="A_exibição_é_2" />
+														<Value Value="A_exibição_é_*" />
 													</Property>
 												</Properties>
 												<Children>
@@ -600,6 +654,225 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="Controles_de_mem_ria" Key="{BDFEE8C3-8EE3-4FB5-AF6A-13A26217EFF9}">
+												<Image FileName="-1920219067" Left="12" Top="172" Right="324" Bottom="204" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="NamedContainerAutomationPeer" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="grupo" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Controles_de_memória" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Adi_o_de_Mem_ria" Key="{953A735B-94E5-4C13-AFDC-B190B9CF301A}">
+														<Image FileName="-1920219067" Left="116" Top="172" Right="166" Bottom="204" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Adição_de_Memória" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="M_" Key="{F91064B9-E251-45A5-9586-C55B20BCA086}">
+																<Image FileName="-1920219067" Left="131" Top="180" Right="151" Bottom="196" />
+																<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="TextBlock" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="texto" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="M_" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Subtra_o_de_Mem_ria" Key="{3C0E3BFB-D0C1-42A7-8C2B-235549B3C3FC}">
+														<Image FileName="-1171528999" Left="168" Top="172" Right="218" Bottom="204" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Subtração_de_Memória" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Rechamada_de_Mem_ria" Key="{69685D2E-BFA9-4736-B5DB-E71F9BD55626}">
+														<Image FileName="385821449" Left="64" Top="172" Right="114" Bottom="204" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Rechamada_de_Memória" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Limpar_toda_a_mem_ria" Key="{22AB9EDC-73C8-45AC-B835-C8CA0FE6AC3D}">
+														<Image FileName="-1184582673" Left="12" Top="172" Right="62" Bottom="204" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Limpar_toda_a_memória" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="MC" Key="{C8425C13-D044-4054-BCEC-4A2D0C5BF095}">
+																<Image FileName="-1184582673" Left="28" Top="180" Right="47" Bottom="196" />
+																<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="TextBlock" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="texto" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="MC" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Reposit_rio_em_Mem_ria" Key="{795ECBFD-43A8-49E1-84A2-41E1455F0E13}">
+														<Image FileName="-610935124" Left="220" Top="172" Right="271" Bottom="204" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Repositório_em_Memória" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Abrir_submenu_de_mem_ria" Key="{C5863E28-244B-4AFF-90EC-3627A129BB42}">
+														<Image FileName="-88769955" Left="274" Top="172" Right="324" Bottom="204" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Abrir_submenu_de_memória" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Fun_es_padr_o" Key="{A1C4BDD3-A95E-4C3C-B2B8-5DD0517D8D63}">
+												<Image FileName="-782474288" Left="12" Top="260" Right="245" Bottom="312" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="NamedContainerAutomationPeer" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="grupo" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Funções_padrão" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Quadrado" Key="{C021FFF5-8932-44F4-980B-C4B5963FBFAF}">
+														<Image FileName="-782474288" Left="90" Top="260" Right="166" Bottom="312" />
+														<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Quadrado" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Raiz_quadrada" Key="{B954CB96-238A-4BAB-B705-92E720C6A313}">
+														<Image FileName="-1617689796" Left="169" Top="260" Right="245" Bottom="312" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Raiz_quadrada" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="NavView" Key="{AF423FD4-45A4-4F5E-A2D6-3F0C74C3D059}">
@@ -635,6 +908,107 @@
 														<Value Value="Abrir_Navegação" />
 													</Property>
 												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Popup" Key="{0A4A45EE-EA96-4628-96A8-FB2A53EC23FF}">
+										<Image FileName="-185778651" Left="-1118" Top="-252" Right="-1118" Bottom="-252" />
+										<TypeInfo Item0="{3F730699-D736-4F13-A610-774B6FB209DE}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Popup" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="janela" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Popup" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Mem_ria" Key="{E1CC1EA7-1193-4BB7-9A95-2BEEDF6EB9F1}">
+												<Image FileName="-185778651" Left="8" Top="1" Right="328" Bottom="533" />
+												<TypeInfo Item0="{3F730699-D736-4F13-A610-774B6FB209DE}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="Flyout" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="painel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Memória" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MemoryListView" Key="{46DD055B-173D-4787-9359-6FF95EA2975E}">
+														<Image FileName="-185778651" Left="8" Top="208" Right="328" Bottom="489" />
+														<TypeInfo Item0="{3F730699-D736-4F13-A610-774B6FB209DE}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="ListView" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="lista" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="MemoryListView" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ListViewItem" Key="{E9426AA7-E383-4A4A-9FFB-362D2142DCD3}">
+																<Image FileName="-185778651" Left="8" Top="220" Right="328" Bottom="286" />
+																<TypeInfo Item0="{3F730699-D736-4F13-A610-774B6FB209DE}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="ListViewItem" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="item de lista" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="ListViewItem" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="MemoryItemValue" Key="{20761502-D641-489E-B1BE-AB733860567B}">
+																		<Image FileName="-185778651" Left="279" Top="222" Right="302" Bottom="254" />
+																		<TypeInfo Item0="{3F730699-D736-4F13-A610-774B6FB209DE}" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="XAML" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="TextBlock" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="texto" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="MemoryItemValue" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -698,6 +1072,120 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pageMathe8TestcompleteTreino" Key="{C1237E9A-D73F-45BF-8E6D-85D669EF2053}">
+								<Image FileName="1764014787" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://github.com/mathe8/testcomplete-treino" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeMathe8TestcompleteTreino" Key="{AC69AFEB-BCC2-42B9-9B67-DD218386A4F4}">
+										<Image FileName="1764014787" Left="0" Top="133" Right="1920" Bottom="689" />
+										<TypeInfo Item0="{ACC7CC6A-3383-45BE-BE66-4B147BFE3CD0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#js-repo-pjax-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[contains(., &apos;mathe8&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;js-repo-pjax-container&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{1C6439A6-49AB-49A5-ADC3-ED7160F3551B}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{9429988E-92C4-4041-9AD2-FA114AFAE2A0}">
+								<Image FileName="899483107" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Iniciar" Key="{5D52FD16-375D-4C75-8DD6-BB6E460287EB}">
+										<Image FileName="899483107" Left="0" Top="0" Right="48" Bottom="40" />
+										<TypeInfo Item0="{4E184F10-750D-40E6-BD05-4D6F7E005C87}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Start" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Iniciar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="CortanaUI" Key="{67627134-3B62-4D9A-8AB3-FD54BC441700}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="CortanaUI" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{06B5F78B-CCE3-4CF3-81C3-BB294AEACB23}">
+								<Image FileName="1470023917" Left="0" Top="0" Right="784" Bottom="640" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Caixa_de_pesquisa" Key="{F32ADE0B-E318-47E3-9808-BDEFDA370841}">
+										<Image FileName="1470023917" Left="0" Top="600" Right="784" Bottom="640" />
+										<TypeInfo Item0="{4ABE558B-EFFC-40C8-8F89-E60F7948FCA1}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="RichEditBox" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="editar" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Caixa_de_pesquisa" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="page" Key="{77564CFC-8678-48BB-BE55-7885BDF9751D}">
+								<Image FileName="2010778745" Left="0" Top="0" Right="784" Bottom="640" />
+								<TypeInfo Item0="{362DCC41-982A-406D-8D02-3915A890D404}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -720,6 +1208,9 @@
 						<Child Name="Quatro" Owner="{F3D973F3-4527-49D7-BB3B-2BA700144F91}" />
 						<Child Name="Tr_s" Owner="{6435C233-57BA-477C-93C5-B841A303873C}" />
 						<Child Name="Cinco" Owner="{D48E516D-F474-49EB-95AE-0F8887A85D9D}" />
+						<Child Name="Sete" Owner="{71912AF3-FD2E-4333-9519-CF23BDAA8552}" />
+						<Child Name="Seis" Owner="{B7AEA69D-121D-41E0-9602-9399C00E16A5}" />
+						<Child Name="Zero" Owner="{68A1FB38-11AA-4826-B6F0-4BDEC39F96D1}" />
 					</Child>
 					<Child Name="Operadores_padr_o" Owner="{5FB0EBD7-3570-4E4B-BD91-FDF6D8384B62}">
 						<Child Name="Mais" Owner="{C92E869A-0348-447F-ADCE-20F6020969F4}" />
@@ -748,9 +1239,34 @@
 							<Child Name="NormalOutput" Owner="{6D98E633-9462-4493-AB97-4231620CB4CE}" />
 						</Child>
 					</Child>
+					<Child Name="Controles_de_mem_ria" Owner="{BDFEE8C3-8EE3-4FB5-AF6A-13A26217EFF9}">
+						<Child Name="Adi_o_de_Mem_ria" Owner="{953A735B-94E5-4C13-AFDC-B190B9CF301A}">
+							<Child Name="M_" Owner="{F91064B9-E251-45A5-9586-C55B20BCA086}" />
+						</Child>
+						<Child Name="Subtra_o_de_Mem_ria" Owner="{3C0E3BFB-D0C1-42A7-8C2B-235549B3C3FC}" />
+						<Child Name="Rechamada_de_Mem_ria" Owner="{69685D2E-BFA9-4736-B5DB-E71F9BD55626}" />
+						<Child Name="Limpar_toda_a_mem_ria" Owner="{22AB9EDC-73C8-45AC-B835-C8CA0FE6AC3D}">
+							<Child Name="MC" Owner="{C8425C13-D044-4054-BCEC-4A2D0C5BF095}" />
+						</Child>
+						<Child Name="Reposit_rio_em_Mem_ria" Owner="{795ECBFD-43A8-49E1-84A2-41E1455F0E13}" />
+						<Child Name="Abrir_submenu_de_mem_ria" Owner="{C5863E28-244B-4AFF-90EC-3627A129BB42}" />
+					</Child>
+					<Child Name="Fun_es_padr_o" Owner="{A1C4BDD3-A95E-4C3C-B2B8-5DD0517D8D63}">
+						<Child Name="Quadrado" Owner="{C021FFF5-8932-44F4-980B-C4B5963FBFAF}" />
+						<Child Name="Raiz_quadrada" Owner="{B954CB96-238A-4BAB-B705-92E720C6A313}" />
+					</Child>
 				</Child>
 				<Child Name="NavView" Owner="{AF423FD4-45A4-4F5E-A2D6-3F0C74C3D059}">
 					<Child Name="Abrir_Navega_o" Owner="{98804458-405D-4DA5-9D85-BC3284CD50D5}" />
+				</Child>
+				<Child Name="Popup" Owner="{0A4A45EE-EA96-4628-96A8-FB2A53EC23FF}">
+					<Child Name="Mem_ria" Owner="{E1CC1EA7-1193-4BB7-9A95-2BEEDF6EB9F1}">
+						<Child Name="MemoryListView" Owner="{46DD055B-173D-4787-9359-6FF95EA2975E}">
+							<Child Name="ListViewItem" Owner="{E9426AA7-E383-4A4A-9FFB-362D2142DCD3}">
+								<Child Name="MemoryItemValue" Owner="{20761502-D641-489E-B1BE-AB733860567B}" />
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 		</Child>
@@ -761,6 +1277,20 @@
 		</Child>
 		<Child Name="browser" Owner="{662B790A-120B-4E35-9FDB-DDA9197CDF66}">
 			<Child Name="BrowserWindow" Owner="{9B6D96DB-174D-466B-9739-5AF35619A226}" />
+			<Child Name="pageMathe8TestcompleteTreino" Owner="{C1237E9A-D73F-45BF-8E6D-85D669EF2053}">
+				<Child Name="textnodeMathe8TestcompleteTreino" Owner="{AC69AFEB-BCC2-42B9-9B67-DD218386A4F4}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{1C6439A6-49AB-49A5-ADC3-ED7160F3551B}">
+			<Child Name="wndShell_TrayWnd" Owner="{9429988E-92C4-4041-9AD2-FA114AFAE2A0}">
+				<Child Name="Iniciar" Owner="{5D52FD16-375D-4C75-8DD6-BB6E460287EB}" />
+			</Child>
+		</Child>
+		<Child Name="CortanaUI" Owner="{67627134-3B62-4D9A-8AB3-FD54BC441700}">
+			<Child Name="BrowserWindow" Owner="{06B5F78B-CCE3-4CF3-81C3-BB294AEACB23}">
+				<Child Name="Caixa_de_pesquisa" Owner="{F32ADE0B-E318-47E3-9808-BDEFDA370841}" />
+			</Child>
+			<Child Name="page" Owner="{77564CFC-8678-48BB-BE55-7885BDF9751D}" />
 		</Child>
 	</LogicalNodes>
 </Root>
